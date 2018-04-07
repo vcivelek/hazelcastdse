@@ -1,6 +1,0 @@
-CREATE KEYSPACE mapper_test WITH replication = {'class':'SimpleStrategy', 'replication_factor' : 1};
-CREATE TABLE mapper_test.user(
-    firstName text,
-    lastName text,
-    PRIMARY KEY(firstName)
-);
